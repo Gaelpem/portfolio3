@@ -1,8 +1,6 @@
+<?php
 
-
-
-
-
+?>
 
 
 
@@ -11,7 +9,6 @@
      <h2 id="contact-menu">[Conta-ct]<span class="number">(03)</span></h2> 
       <div class="contact-mini">
        <p>Pour toutes questions, avis, opportunités de stage ou d’alternance, n’hésitez pas à me contacter. Je suis ouvert aux échanges et prêt à discuter avec vous.
-        <span>padod</span>
        </p>
       <form action="" method="">
          <label for="nom">Nom</label>

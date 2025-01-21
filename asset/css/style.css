@@ -138,14 +138,13 @@ section h1:before{
 .home{
     width: 100%;
     margin: 0 auto;
-    height:580px ;
+    margin-top: -6rem;
     display: flex;
-   flex-direction: column;
-  /*border:1px solid rgb(226, 0, 0);*/
+    flex-direction: column;
+    /*border:1px solid rgb(226, 0, 0);*/
 }
 
 .home .home-container{
-    height:350px;
     width: 100%; /* Limite la largeur */
     display: flex;
     flex-direction: column;
@@ -154,11 +153,11 @@ section h1:before{
 .paragraphe1{
     font-size: 4rem;
     color:rgb(4, 4, 4); 
-    /*border: 1px solid black;*/        
+    /*border: 1px solid black;*/
     z-index: 4;
     font-weight: 300;
     position:relative; 
-    width: 80%;
+    width: 60%;
 }
 .slash{
     font-weight: 200;
@@ -166,20 +165,21 @@ section h1:before{
 }
 .detail{
     position: absolute;
-    /*border: 1px solid black;*/
-    right: -21rem;
+   /* border: 1px solid black;*/
+    right: -30rem;
     font-size: 4.4rem;
 
 }
-.home .home-container .titre-portfolio1 {
+.home .home-container .titre-portfolio1{
     width: 100%;
+    margin-top: 6rem;
+
 }
 
 .home .home-container .titre-portfolio1 .titre-portfolio{
-    margin-top: 8rem;
     text-align: center;
     font-size: 15vw;
-    color: #00000029;
+    color: #000000;
     z-index: 1; 
   /* border: 1px solid  black;   /* Centre horizontalement dans son conteneur parent */  
 } 

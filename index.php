@@ -22,18 +22,19 @@
 <main>
 
 <section class="home">
+
     <div class="home-container">
     <p class="paragraphe1" id="accueil-menu">
     Je m’appelle Gaël Pembele<span class='slash'>/</span>je suis un apprenti développeur<span class='slash'>/</span>passionné par la technologie <span class='slash'>&</span> le designe<span class='slash'>/</span>c'est pourquoi j'ai choisi de combiner ces deux univers.
 <span class="detail">&copy2025 <br>
-    -basé à Paris
+    basé à Paris/
 </span></p>
     <ul class="link-contact">
         <li><a href="#contact-menu">.Contactez-moi</a></li>
-        <div class="titre-portfolio1">
+     </ul>
+    <div class="titre-portfolio1">
     <h2 class="titre-portfolio">PORTFOLIO&copy;</span></h2>
     </div>
-    </ul>
     </div> 
    
   </section>
