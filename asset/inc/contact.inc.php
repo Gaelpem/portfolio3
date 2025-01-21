@@ -13,8 +13,14 @@
       <form action="" method="">
          <label for="nom">Nom</label>
          <input type="text" name="user_nom" id="nom" placeholder="Paul">
+
          <label for="email">Email</label>
          <input type="text" name="user_email" id="email" placeholder="exemple@gmail.com">
+
+         <label for="message">Votre message</label>
+         <input type="text" name="user_message" id="message" placeholder="Bonjour Gaël...">
+
+
          <button type="submit">Envoyez</button>
       </form>
 

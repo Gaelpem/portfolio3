@@ -25,7 +25,7 @@
 
     <div class="home-container">
     <p class="paragraphe1" id="accueil-menu">
-    Je m’appelle Gaël Pembele<span class='slash'>/</span>je suis un apprenti développeur<span class='slash'>/</span>passionné par la technologie <span class='slash'>&</span> le designe<span class='slash'>/</span>c'est pourquoi j'ai choisi de combiner ces deux univers.
+    Je m’appelle Gaël Pembel je suis un apprenti développeur passionné par la technologie le designe c'est pourquoi j'ai choisi de combiner ces deux univers.
 <span class="detail">&copy2025 <br>
     basé à Paris/
 </span></p>
