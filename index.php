@@ -52,20 +52,24 @@
    
  <article class="photos">
 
-         <h2 class="portfolio"><a href="projet-photo.php">-Portfolio Photos</a></h2>
+  <h2 class="portfolio"><a href="projet-photo.php">-Portfolio Photos</a></h2>
          <div id="separateur">
-         <div id="paragraphe">
+            <div id="paragraphe">
              Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
-           </div>
+            </div>
          <div class="projet.photo"></div>
         </div>
+
  </article>
 
     
 <article class="biographie">
+   <h2 class="portfolio"><a href="">-Biographie</a></h2>
       <div id="separateur1">
-         <h2 class="portfolio"><a href="">-Biographie</a></h2>
-         <div class="projet.galle"></div>
+         <div id="paragraphe1">
+             Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
+            </div>
+         <div class="projet.biographie"></div>
      </div>
 </article>
     
