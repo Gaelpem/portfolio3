@@ -23,3 +23,12 @@ accueil.addEventListener('click', ()=>{
     burgerMenu.style.display = "none"; 
 
 })
+
+
+
+
+// Projet-photo
+
+
+
+

@@ -220,7 +220,7 @@ align-items: center;
   }
 
   .portfolio-section .projet-container{
-   display: flex;
+   display: block;
    justify-content: space-between;
    width: 100%;
   }
@@ -234,8 +234,8 @@ align-items: center;
 
 }
 .portfolio-section .projet-container article div{
-    width: 600px;
-    height: 500px;
+    width: 100%;
+    height: 200px;
     background-color: var(--bgc-mineur);
 
 }

@@ -43,22 +43,34 @@
  <!--Projet menu-->
 
 <section class="portfolio-section">
-<h1 id="projet-menu">[Proje-ts]<span class="number">(01)</span></h1>
-<div class="projet-container">
 
+<h1 id="projet-menu">[Proje-ts]<span class="number">(01)</span></h1>
+
+
+
+<div class="projet-container">
    
-    <article class="photos">
-    <h2 class="portfolio"><a href="projet-photo.php">-Portfolio Photos</a></h2>
-        <div class="projet.photo"></div>
-    </article>
+ <article class="photos">
+
+         <h2 class="portfolio"><a href="projet-photo.php">-Portfolio Photos</a></h2>
+         <div id="separateur">
+         <div id="paragraphe">
+             Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
+           </div>
+         <div class="projet.photo"></div>
+        </div>
+ </article>
 
     
-    <article class="biographie">
-    <h2 class="portfolio"><a href="">-Biographie</a></h2>
-    <div class="projet.galle"></div>
-    </article>
+<article class="biographie">
+      <div id="separateur1">
+         <h2 class="portfolio"><a href="">-Biographie</a></h2>
+         <div class="projet.galle"></div>
+     </div>
+</article>
     
 </div>
+
 </section>
 
  <!--A propos-->
