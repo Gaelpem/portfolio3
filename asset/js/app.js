@@ -30,5 +30,23 @@ accueil.addEventListener('click', ()=>{
 // Projet-photo
 
 
+function toggleContainer(containerId, className){
+
+    const container =  document.getElementById(containerId); 
+
+    container.addEventListener('click', () =>{
+       
+        container.classList.toggle('open'); 
+
+        container.style.height = container.classList.contains('open') ? '600px' : 'auto'; 
+
+    }); 
+}
+
+
+toggleContainer('photos', 'carre1'); 
+
+toggleContainer('biographie', 'carre2'); 
+
 
 

@@ -50,27 +50,29 @@
 
 <div class="projet-container">
    
- <article class="photos">
+ <article id="photos">
+  <h2 class="portfolio"><a href="projet-photo.php">1/ Portfolio Photos</a></h2>
 
-  <h2 class="portfolio"><a href="projet-photo.php">-Portfolio Photos</a></h2>
-         <div id="separateur">
-            <div id="paragraphe">
+         <div id="separateur1">
+            <div id="paragraphe1">
              Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
             </div>
-         <div class="projet.photo"></div>
-        </div>
+         <div class="carre1"></div>
+    </div>
 
  </article>
 
     
-<article class="biographie">
-   <h2 class="portfolio"><a href="">-Biographie</a></h2>
-      <div id="separateur1">
-         <div id="paragraphe1">
+<article id="biographie">
+   <h2 class="portfolio"><a href="">2/ Biographie</a></h2>
+
+      <div id="separateur2">
+         <div id="paragraphe2">
              Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
             </div>
-         <div class="projet.biographie"></div>
+         <div class="carre2"></div>
      </div>
+
 </article>
     
 </div>
@@ -129,7 +131,7 @@
   <!--footer-->
 <?php  require_once 'asset/inc/footer.inc.php'?>
  <!--footer-->
-
+<script src="asset/js/app.js"></script>
 
 </body>
 </html>
