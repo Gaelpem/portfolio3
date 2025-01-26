@@ -44,7 +44,7 @@
 
 <section class="portfolio-section">
 
-<h1 id="projet-menu">[Proje-ts]<span class="number">(01)</span></h1>
+<h1 id="projet-menu">[Proje-ts]<span class="numero">(01)</span></h1>
 
 
 
@@ -84,7 +84,7 @@
  <!--A propos-->
 
  <section class="portfolio-section">
-    <h1 id="projet-about">[À-propos]<span class="number">(02)</span></h1>
+    <h1 id="projet-about">[À-propos]<span class="numero">(02)</span></h1>
     <div class="propos-container">
         <article class="grid">
             <p class="paragraphe">Étudiant en première année de développement web à Digital Campus Paris, je me considère comme un futur creative developer, passionné par le front-end et le design.</p>
@@ -116,7 +116,7 @@
 
  <!--Menu-->
 <section class="portfolio-section menu">
-<h1 class="menu-titre">[Men-u]<span class="number">(04)</span></h1> 
+<h1 class="menu-titre">[Men-u]<span class="numero">(04)</span></h1> 
 <div class="menu-block">
       <ul class="links-block">
                     <li><a href="#accueil-menu">[Accue-il]<span class="numero">(01)</span></a></li>

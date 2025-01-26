@@ -257,7 +257,7 @@ align-items: center;
     font-size: 1.6rem;
     top: 2rem;
     transition: transform 0.3s ease;
-    color: rgba(0, 0, 0, 0.495);
+    color: black; 
    }
    
    
