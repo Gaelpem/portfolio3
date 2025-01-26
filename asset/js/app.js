@@ -29,24 +29,30 @@ accueil.addEventListener('click', ()=>{
 
 // Projet-photo
 
+function toggleContainer(containerId, className,flecheId){
+    const container = document.getElementById(containerId); 
+    const fleche = document.getElementById(flecheId); 
 
-function toggleContainer(containerId, className){
+    if(fleche){
+        container.addEventListener('click', () =>{
+        
 
-    const container =  document.getElementById(containerId); 
+            container.classList.toggle('open'); 
+            container.style.height = container.classList.contains('open') ? "600px" : "auto"; 
 
-    container.addEventListener('click', () =>{
-       
-        container.classList.toggle('open'); 
+            // fleche
 
-        container.style.height = container.classList.contains('open') ? '600px' : 'auto'; 
+            fleche.classList.toggle('rotated');
+            fleche.style.transform = fleche.classList.contains('rotated') ? "rotated(180deg)" :  "rotated(0deg)"; 
+            
 
-    }); 
+        })
+    }
 }
 
+toggleContainer('photos', 'carre1', 'fleche1'); 
 
-toggleContainer('photos', 'carre1'); 
-
-toggleContainer('biographie', 'carre2'); 
+toggleContainer('biographie', 'carre2', 'fleche2'); 
 
 
 

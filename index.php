@@ -25,7 +25,7 @@
 
     <div class="home-container">
     <p class="paragraphe1" id="accueil-menu">
-    Je m’appelle Gaël Pembel je suis un apprenti développeur passionné par la technologie le designe c'est pourquoi j'ai choisi de combiner ces deux univers.
+    Je m’appelle Gaël Pembele je suis un apprenti développeur passionné par la technologie le design c'est pourquoi j'ai choisi de combiner ces deux univers.
 <span class="detail">&copy2025 <br>
     basé à Paris/
 </span></p>
@@ -51,6 +51,7 @@
 <div class="projet-container">
    
  <article id="photos">
+ <i class="fa-solid fa-arrow-down" id="fleche1"></i>
   <h2 class="portfolio"><a href="projet-photo.php">1/ Portfolio Photos</a></h2>
 
          <div id="separateur1">
@@ -64,6 +65,7 @@
 
     
 <article id="biographie">
+<i class="fa-solid fa-arrow-down" id="fleche2"></i>
    <h2 class="portfolio"><a href="">2/ Biographie</a></h2>
 
       <div id="separateur2">

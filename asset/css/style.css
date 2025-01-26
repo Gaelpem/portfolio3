@@ -161,7 +161,7 @@ section h1:before{
     z-index: 4;
     font-weight: 300;
     position:relative; 
-    width: 64%;
+    width: 60%;
 }
 
 .detail{
@@ -235,6 +235,7 @@ align-items: center;
     padding: 2rem 0;
     max-width: 1200px;
     cursor: pointer;
+    position: relative;
    
   }
 
@@ -245,9 +246,25 @@ align-items: center;
     padding: 2rem 0; 
     max-width: 1200px;
     cursor: pointer;
-   
-   
+    position: relative;
   }
+
+
+
+#fleche1,#fleche2{
+    position: absolute;
+    right: 0;
+    font-size: 1.6rem;
+    top: 2rem;
+    transition: transform 0.3s ease;
+    color: rgba(0, 0, 0, 0.495);
+   }
+   
+   
+   #fleche1.rotated,#fleche2.rotated{
+       transform: rotate(180deg);
+   }
+   
 
    #photos.open, #biographie.open{
     height: 600px; 
