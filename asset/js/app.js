@@ -9,7 +9,7 @@ burgerMenuButton.addEventListener('click', ()=>{
     burgerMenu.classList.toggle('open'); 
     const isOpen = burgerMenu.classList.contains('open'); 
     if(isOpen){
-        elementText.textContent = 'close'; 
+        elementText.textContent = 'ferme'; 
     }
     else{
         elementText.textContent = 'menu'; 
@@ -17,12 +17,7 @@ burgerMenuButton.addEventListener('click', ()=>{
 })
 
 
-const accueil = document.getElementById('accueil'); 
-accueil.addEventListener('click', ()=>{
-     
-    burgerMenu.style.display = "none"; 
 
-})
 
 
 

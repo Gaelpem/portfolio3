@@ -30,7 +30,7 @@
     basé à Paris/
 </span></p>
     <ul class="link-contact">
-        <li><a href="#contact-menu">.Contactez-moi</a></li>
+        <li><a href="#contact-menu">.contactez-moi</a></li>
      </ul>
     <div class="titre-portfolio1">
     <h2 class="titre-portfolio">PORTFOLIO&copy;</span></h2>
@@ -106,7 +106,7 @@
         </article>
     </div>
      <ul class="cv">
-                <li><a href="asset/cv/Gael_Pembele_CV.pdf" target="_blank">.Voir mon CV</a></li>
+                <li><a href="asset/cv/Gael_Pembele_CV.pdf" target="_blank">.voir mon CV</a></li>
       </ul>
 </section>
 
