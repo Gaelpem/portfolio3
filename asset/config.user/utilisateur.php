@@ -1,10 +1,5 @@
-
 <?php
-
-
-class User{
-
-
+class Utlisateur{
     const ERROR_NOM = 'Nom incorrect'; 
     const ERROR_EMAIL = 'Email incorrect'; 
 
@@ -20,12 +15,14 @@ class User{
         }
     }
 
-
     public function setNom( string $nom) : void 
     {
-        
+               if(ctype_lower($nom[0])){
+                $this->nom = $nom; 
+               }else{
+                 throw new Exception(self::ERROR_NOM); 
+               }
     }
-
     
     public function setEmail(string $email) : void
     {
@@ -40,8 +37,6 @@ class User{
         }
     }
 
-
-
     public function getNom($nom):string{
         return $this->nom ; 
     }
@@ -49,8 +44,6 @@ class User{
     public function getEmail($email):string{
         return $this->email; 
     }
-
-
 }
 
 

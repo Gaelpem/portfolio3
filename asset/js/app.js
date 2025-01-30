@@ -7,13 +7,7 @@ const elementText = document.querySelector('.menu');
 
 burgerMenuButton.addEventListener('click', ()=>{
     burgerMenu.classList.toggle('open'); 
-    const isOpen = burgerMenu.classList.contains('open'); 
-    if(isOpen){
-        elementText.textContent = 'ferme'; 
-    }
-    else{
-        elementText.textContent = 'menu'; 
-    }
+   elementText.textContent = burgerMenu.classList.contains('open') ? 'menu' : 'ferme'; 
 })
 
 

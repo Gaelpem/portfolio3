@@ -642,16 +642,19 @@ footer .social-lieu-copyright .social{
 
 /*----BURGER-MENU---- */
 .burger-menu{
-    display: none;
-    height: 0;
+    display: block;
+    opacity: 0;
     position:absolute; 
     top: 0;
-    width: 100vw; 
+    width: 0;
+    height: 900px ; 
+    overflow: hidden;
     background-color:rgb(205, 205, 205);
-    transition: height 0.7s ease;
+    transition: width 0.7s ease, opacity  0.3s ease;
 }
 .burger-menu.open{
-    height: 100vh; 
+    width: 100%; 
+    opacity: 1;
 }
 
 .burger-menu .nav-links{
@@ -690,7 +693,14 @@ footer .social-lieu-copyright .social{
         display: block;
     }
 
-   
+}
+
+
+
+@media (min-width: 769px){
+    .burger-menu.open{
+        display: none;
+    }
 }
 /*---Responsive section h1 ----*/
 
