@@ -20,8 +20,7 @@
          <label for="message">Votre message</label>
          <input type="text" name="user_message" id="message" placeholder="Bonjour Gaël...">
 
-
-         <button type="submit">Envoyez</button>
+         <button class="bouton" type="submit">Envoyez</button>
       </form>
 
       <ul class="reseau">

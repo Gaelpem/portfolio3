@@ -103,6 +103,7 @@ flex-direction: column;
 border-radius:22px;
 padding: 2rem;
 margin-top: 4rem;
+min-height: 80vh;
 
 }
 
@@ -186,26 +187,44 @@ section h1:before{
   /* border: 1px solid  black;   /* Centre horizontalement dans son conteneur parent */  
 } 
 
-.home .link-contact{
+.home .bouton{
   margin-top: 3rem;
   margin-left: 2rem;
 }
 
 
-.home .link-contact li{
- border: 1px solid black;
- display: flex;
-justify-content: center;
-align-items: center;
- border-radius:8px;
- width: 200px;
- height: 50px;
-}
-.home .link-contact li a{
-    color :rgb(0, 0, 0); 
-    font-size: 1.5rem;
-}
+.bouton{
+    border: 1px solid black;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius:8px;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+   }
+   
+   .bouton::after{
+       position: absolute;
+       content: "";
+       top: 0;
+       left: 0;
+       width:0;
+       height: 100%;
+       background-color: black;
+       transition: width 0.5s  ease;
+       z-index: -1;
+   }
+   
+   .bouton:hover a{
+       color: white;
 
+   }
+   .bouton:hover::after{
+    width: 100%;
+
+   }
 
 .home ul li{
   position: absolute;
@@ -486,21 +505,6 @@ form input{
    color:white; 
    padding-bottom: 1rem;
 }
-
-form button{
-    border:none; 
-    width:150px; 
-    height:37px;
-    font-size: 1rem; 
-    font-weight: 500;
-    margin-top:1rem; 
-    background-color:white; 
-    color:rgba(0, 0, 0, 0.373);
-    border-radius: 8px;
-    z-index: 10;
-
-}
-
 form input:focus{
 
     outline: none;
@@ -588,7 +592,6 @@ footer{
      max-width: var(--maxWidth);
      margin: 0 auto;
      height: 100px;
-     margin-top: 2rem;
      border-top:1px solid rgba(1, 1, 1, 0.401);
      display: flex;
      align-items: center;
