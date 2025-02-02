@@ -12,6 +12,16 @@ burgerMenuButton.addEventListener('click', ()=>{
 
 
 
+const links = document.querySelectorAll('.nav-links a'); // Sélectionne tous les liens dans `.links`
+
+if (burgerMenu) { // Vérifie que l'élément existe
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      burgerMenu.classList.toggle('open');
+    });
+  });
+}
+
 
 
 
