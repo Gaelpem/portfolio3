@@ -83,10 +83,10 @@
 
  <!--A propos-->
 
- <section class="portfolio-section">
+ <section class="portfolio-section propos">
     <h1 id="projet-about">[À-propos]<span class="numero">(02)</span></h1>
     <div class="propos-container">
-        <article class="grid">
+        <div class="grid">
             <p class="paragraphe">Étudiant en première année de développement web à Digital Campus Paris, je me considère comme un futur creative developer, passionné par le front-end et le design.</p>
             <p class="paragraphe">J’aime allier l’aspect artistique et technique du développement web tout en approfondissant le back-end pour devenir un développeur complet.</p>
             <p class="paragraphe">En dehors du code, je m’intéresse à la fashion photographie, et la street photographie. Ce portfolio met en avant mes réalisations.</p>
@@ -103,11 +103,12 @@
                     </div>
                 </div>
             </div>
-        </article>
-    </div>
-     <ul class="cv">
-                <li><a href="asset/cv/Gael_Pembele_CV.pdf" target="_blank">.voir mon cv</a></li>
+            <ul class="cv">
+                <li class="bouton2"><a href="asset/cv/Gael_Pembele_CV.pdf" target="_blank">.voir mon cv</a></li>
       </ul>
+        </div>
+    </div>
+     
 </section>
 
  <!--Contact-->
@@ -117,14 +118,15 @@
  <!--Menu-->
 <section class="portfolio-section menu">
 <h1 class="menu-titre">[Men-u]<span class="numero">(04)</span></h1> 
-<div class="menu-block">
+
       <ul class="links-block">
+
                     <li><a href="#accueil-menu">[Accue-il]<span class="numero">(01)</span></a></li>
                     <li><a href="#projet-menu">[Proje-ts]<span class="numero">(02)</span></a></li>
                     <li><a href="#projet-about">[À-propos]<span class="numero">(03)</span></a></li>
                     <li><a href="#contact-menu">[Conta-ct]<span class="numero">(04)</span></a></li>
      </ul>
-</div>
+
 </section>
 
 
