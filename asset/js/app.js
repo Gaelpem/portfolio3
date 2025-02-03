@@ -44,7 +44,7 @@ function toggleContainer(containerId, className,flecheId){
             fleche.classList.toggle('rotated');
             fleche.style.transform = fleche.classList.contains('rotated') ? "rotated(180deg)" :  "rotated(0deg)"; 
             
-
+            
         })
     }
 }
@@ -55,3 +55,47 @@ toggleContainer('biographie', 'carre2', 'fleche2');
 
 
 
+// animation appariton
+
+const observer = new IntersectionObserver((entries)=>{
+
+
+    for(const entry of entries){
+        if(entry.isIntersecting){
+
+           if(entry.target.classList.contains('contact')){
+               entry.target.animate([
+                {transform : 'translateX(100px)', opacity: 0},
+                {transform : 'translateX(0)', opacity: 1},
+               ], {
+                duration : 500
+               })
+           }else if(entry.target.classList.contains('propos')){
+            entry.target.animate([
+                {transform : 'translateX(-100px)', opacity: 0},
+                {transform : 'translateX(0)', opacity: 1},
+               ], {
+                duration : 500
+               })
+        }else{
+            entry.target.animate([
+                {transform : 'translateX(100px) scale(0.8)', opacity: 0},
+                {transform : 'translateX(0) scale(1)', opacity: 1},
+               ], {
+                duration : 500
+               })
+        }
+        }
+    }
+
+
+
+
+
+}); 
+
+
+observer.observe(document.querySelector('.home'))
+
+observer.observe(document.querySelector('.propos'))
+observer.observe(document.querySelector('.contact'))

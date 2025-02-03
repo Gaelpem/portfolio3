@@ -21,11 +21,11 @@
 
 <main>
 
-<section class="home">
+<section class="portfolio-section home">
 
     <div class="home-container">
     <p class="paragraphe1" id="accueil-menu">
-    Je m’appelle Gaël Pembele je suis un apprenti développeur passionné par la technologie le design c'est pourquoi j'ai choisi de combiner ces deux univers.
+    Je m’appelle Gaël Pembele je suis développeur passionné par la technologie le design c'est pourquoi j'ai choisi de combiner ces deux univers.
 <span class="detail">&copy2025 <br>
     basé à Paris/
 </span></p>
@@ -42,7 +42,7 @@
 
  <!--Projet menu-->
 
-<section class="portfolio-section">
+<section class="portfolio-section projet">
 
 <h1 id="projet-menu">[Proje-ts]<span class="numero">(01)</span></h1>
 
@@ -73,8 +73,8 @@
              Mon premier projet en VueJS m'a permis d'acquérir les fondamentaux, comme par exemple l'utilisation des templates, la gestion des données avec data et methods, ainsi que l'apprentissage des directives comme v-bind, v-for, et v-if.
             </div>
          <div class="carre2"></div>
-     </div>
 
+</div>
 </article>
     
 </div>
