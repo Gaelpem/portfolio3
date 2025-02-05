@@ -99,3 +99,27 @@ observer.observe(document.querySelector('.home'))
 
 observer.observe(document.querySelector('.propos'))
 observer.observe(document.querySelector('.contact'))
+
+
+//heure
+const afficherHeure = ()=>{
+
+
+    let $date = new Date()
+    let heure = $date.getHours();
+    let minute = $date.getMinutes(); 
+    let seconde = $date.getSeconds(); 
+
+ heure = heure < 10 ? "0" + heure : heure; 
+ minute = minute < 10 ? "0" + minute : minute; 
+ seconde = seconde < 10 ? "0" + seconde: seconde; 
+
+let heureActuelle = heure + ":" + minute + ":" + seconde ; 
+document.getElementById('heure').textContent = heureActuelle + " " + 'Paris, FR'; 
+
+setTimeout(afficherHeure, 1000)
+   
+
+}
+
+afficherHeure()

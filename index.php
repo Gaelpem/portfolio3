@@ -126,11 +126,18 @@
                     <li><a href="#projet-about">[À-propos]<span class="numero">(03)</span></a></li>
                     <li><a href="#contact-menu">[Conta-ct]<span class="numero">(04)</span></a></li>
      </ul>
-
+ 
 </section>
+
+<!--HEURE-->
+<div id="heure"></div>
+
+
+
 
 
 </main>
+
 
   <!--footer-->
 <?php  require_once 'asset/inc/footer.inc.php'?>

@@ -106,13 +106,15 @@ flex-direction: column;
 /*background-color: #00000034;*/
 padding: 2rem;
 margin-top: 4rem;
-min-height: 70vh;
+min-height: 75vh;
 width: 100%;
+
 
 }
 section{
     margin-bottom: 24rem;
-    min-height: 60vh;
+    min-height: 45vh;
+
 }
 
 section h1{
@@ -579,7 +581,7 @@ form button{
 
 /* -----MENU-------- */
 .portfolio-section .menu{
-    padding:2rem; 
+    padding:2rem;
 }
 
 .links-block{
@@ -624,6 +626,26 @@ flex-direction: column;
     font-size:1rem;  
     font-weight: 200;
 }
+
+/* heure */
+
+#heure{
+   position: absolute; 
+   padding-left: 0.5rem;
+   bottom: -240rem;
+   width: 100%;
+   margin: 0 ;
+   left: 65rem;
+   font-size: 5rem;
+   border-left:0.5px solid black;
+   
+}
+
+
+
+/* Footer */    
+
+
 
 
 footer{
