@@ -121,10 +121,10 @@
 
       <ul class="links-block">
 
-                    <li><a href="#accueil-menu">[Accue-il]<span class="numero">(01)</span></a></li>
-                    <li><a href="#projet-menu">[Proje-ts]<span class="numero">(02)</span></a></li>
-                    <li><a href="#projet-about">[À-propos]<span class="numero">(03)</span></a></li>
-                    <li><a href="#contact-menu">[Conta-ct]<span class="numero">(04)</span></a></li>
+                    <li><a href="#accueil-menu">Accueil<span class="numero">(01)</span></a></li>
+                    <li><a href="#projet-menu">Projets<span class="numero">(02)</span></a></li>
+                    <li><a href="#projet-about">À propos<span class="numero">(03)</span></a></li>
+                    <li><a href="#contact-menu">Contact<span class="numero">(04)</span></a></li>
      </ul>
  
 </section>
