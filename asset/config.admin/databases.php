@@ -7,11 +7,12 @@
 
 
     try{
-        $pdo = new PDO('mysql:host=localhost;dbname='); 
-        $pdo->setAttribute(PDO::ATTR_ERRMODE)
+        $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME ,DB_USER, DB_PASS ); 
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+        echo 'Connexion reussie ! '; 
+    }catch(Exception $e){
+        die("Connexion à la base de donnée échouée " . $e->getMessage()); 
     }
-
-
 
     
 ?>

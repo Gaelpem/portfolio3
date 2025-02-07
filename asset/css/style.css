@@ -112,8 +112,8 @@ width: 100%;
 
 }
 section{
-    margin-bottom: 24rem;
-    min-height: 45vh;
+    margin-bottom: 18rem;
+    min-height: 30vh;
 
 }
 
@@ -163,10 +163,9 @@ section h1:before{
    /*border: 1px solid yellow;*/
 }
 .paragraphe1{
-    text-align: justify;
     margin-left: 2rem;
     padding-right: 1rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:rgb(4, 4, 4); 
     /*border: 1px solid black;*/
     border-right: 2px solid rgba(0, 0, 0, 0.15);
@@ -625,10 +624,10 @@ flex-direction: column;
 #heure{
    position: absolute; 
    padding-left: 0.5rem;
-   bottom: -240rem;
+   bottom: -220rem;
    width: 100%;
    margin: 0 ;
-   left: 65rem;
+   left: 62rem;
    font-size: 5rem;
    border-left:0.5px solid black;
    

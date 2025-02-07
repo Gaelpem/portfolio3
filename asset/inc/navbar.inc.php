@@ -20,7 +20,8 @@
     </nav>
 
     <div class="burger-menu">
-    <ul class="nav-links link-home">
+
+       <ul class="nav-links link-home">
             <li><a href="#accueil-menu" aria-label="Retour à l'accueil" id="accueil">Accueil</a></li>
             <li><a href="#projet-menu" aria-label="Voir mes projets">Projets</a></li>
             <li><a href="#projet-about" aria-label="À propos de moi">À propos</a></li>
