@@ -1,15 +1,18 @@
 <?php
-class Utlisateur{
+class Formulaire{
     const ERROR_NOM = 'Nom incorrect'; 
     const ERROR_EMAIL = 'Email incorrect'; 
+    const ERROR_MESSAGE = 'Message doit entre compris entre 2 à 300 caractère'; 
 
     private string $nom = ""; 
     private string $email = ""; 
+    private string $message = ""; 
 
     public function __construct(array $data){
-        if(!empty($data["user_nom"]) && !empty($data["user_email"])){
+        if(!empty($data["user_nom"]) && !empty($data["user_email"]) &&  !empty($data["user_message"]) ){
             $this->setNom($data["user_nom"]); 
-            $this->setEmail($data["user_email"]); 
+            $this->setEmail($data["user_email"]);
+            $this->setMessage($data["user_message"]); 
         }else{
             throw new Exception("Vous devez remplir tous les champs"); 
         }
@@ -36,13 +39,33 @@ class Utlisateur{
             throw new Exception(self::ERROR_EMAIL); 
         }
     }
+     
+    public function setMessage( string $message) : void 
+    {
+              if(iconv_strlen($message) >=  2 && iconv_strlen($message) <= 300){
+                  $this->message = $message; 
+              }else{
+                throw new Exception(self::ERROR_MESSAGE); 
+              }
+    }
 
-    public function getNom($nom):string{
+
+
+
+    public function getNom():string
+    {
         return $this->nom ; 
     }
 
-    public function getEmail($email):string{
+    public function getEmail():string
+    {
         return $this->email; 
+    }
+
+
+    public function getMessage():string
+    {
+        return $this->message; 
     }
 }
 
