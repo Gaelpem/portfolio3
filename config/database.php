@@ -20,5 +20,4 @@ function getPDO() {
     }
 }
 
-// Exemple d'utilisation
 $pdo = getPDO();

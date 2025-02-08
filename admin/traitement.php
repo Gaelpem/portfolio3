@@ -1,5 +1,5 @@
 <?php
-class Traitement{
+class  Admin{
     const ERROR_NOM = "Nom incorrect"; 
     const ERROR_EMAIL = "Email incorret"; 
     const ERROR_MDP = "Mot de passe incorrect"; 
